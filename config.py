@@ -17,6 +17,10 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
+#Broadcast
+FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
+BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
+
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
